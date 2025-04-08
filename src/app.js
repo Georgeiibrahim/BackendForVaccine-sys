@@ -33,7 +33,7 @@ app.use(cors());
 //   app.use(morgan('dev'));
 // }
 
-mongoose.connect('mongodb+srv://george:22359187Gg@cluster0.rzdr6.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('database_name');
 console.log("success database");
 //get all assets in world state
 // app.get('/queryALL', async (req, res) => {
